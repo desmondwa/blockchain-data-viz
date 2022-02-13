@@ -1,8 +1,9 @@
+import sqlite3
 import psycopg2
 import sys, os
 import numpy as np
 import pandas as pd
-import config as creds
+import env as creds
 import pandas.io.sql as psql
 
 

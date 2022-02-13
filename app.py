@@ -5,3 +5,5 @@ app = Flask(__name__)
 
 
 @app.route('/')
+def browser():
+    return '<h1>testing</h1>'
